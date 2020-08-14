@@ -1,0 +1,19 @@
+{
+    "name": "xiaobai6/custom-util",
+    "description": "常用功能",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "xiaobai",
+        "email": "hehe1308244@163.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xiaobai6\\": "src/"
+        }
+    }
+}
