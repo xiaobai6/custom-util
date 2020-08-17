@@ -7,7 +7,7 @@
         "name": "xiaobai",
         "email": "hehe1308244@163.com"
     }],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0"
     },
