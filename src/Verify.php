@@ -30,6 +30,22 @@ class Verify
     }
 
     /**
+     * 验证座机号码格式
+     * @param string $tel  座机号
+     * @return bool
+     */
+    static public function isTel(string $tel = '')
+    {
+        if (empty($tel)) {
+            return false;
+        }
+        if (!preg_match("/^([0-9]{3,4}-)?[0-9]{7,8}$/", $tel)) {
+            return false;
+        }
+        return true;
+    }
+
+    /**
      * 验证邮箱
      * @param string $email   邮箱地址
      * @return bool
